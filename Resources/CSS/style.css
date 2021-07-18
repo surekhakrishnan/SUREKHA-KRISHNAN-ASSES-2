@@ -1,24 +1,78 @@
+@import url(normalise.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Tenor+Sans&display=swap');
+
 /* Global faults */
 
 body {
-    background-color: rosybrown;
+    background-color: #38302e;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 16px;
+    line-height: 2;
+    
 } 
 
+h1{
+    background-color: #778472;
+
+    font-size: 32px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 32px;
+}
 img{
     max-width: 100%;
 }
 
+a { 
+    color: rgb(88, 46, 9);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(202, 150, 97);
+    text-decoration: none;
+}
+
 /* layouts*/
 .layout-wide {
-    background-color: peachpuff;
+    background-color: #778472;
 
     max-width: 1200px;
     padding: 40px;
     margin-left: auto;
     margin-right: auto;
+    line-height: normal;
 }
 
 /* Headings and typography */
+
+h1, 
+h2,
+h3,
+h4,
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 /* header */
 
