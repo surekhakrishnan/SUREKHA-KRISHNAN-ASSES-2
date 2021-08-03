@@ -83,3 +83,32 @@ h5 {
 /* footer */ 
 
 /* modelues */
+
+button {
+
+}
+
+.main-nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.main-nav.open {
+  max-height: 100vh;
+}
+
+.desktop-socials {
+  display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+  .desktop-socials {
+    display: inline;
+  }
+  
+  .mobile-socials {
+    display: none;
+  }
+}
