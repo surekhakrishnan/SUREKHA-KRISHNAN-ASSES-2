@@ -46,7 +46,7 @@ img{
 }
 
 a { 
-    color: rgb(88, 46, 9);
+    color: rgb(214, 168, 127);
     text-decoration: none;
 }
 
@@ -78,37 +78,50 @@ h5 {
 
 /* header */
 
+
+.header-image{max-width: 10px;}
+
+.header-image{max-height: 10px}
+
+.header-text{font-size: 5rem;}
+
+.header-text{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.header-text{}
+
+header.layout-wide{display: grid;
+grid-template-columns: 200px;}
+
+.logo {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-gap: 20px;
+}
+
 /* navigation */
 
 /* footer */ 
 
+footer {text-align: center;}
+
 /* modelues */
 
-button {
-
-}
-
-.main-nav {
-  max-height: 0;
-  overflow: hidden;
-  transition: .5s;
-}
-
-.main-nav.open {
-  max-height: 100vh;
-}
-
-.desktop-socials {
-  display: none;
-}
-
-
-@media screen and (min-width: 600px) {
-  .desktop-socials {
-    display: inline;
+first {
+    background-color:black;
+  }
+  .second {
+    background-color: black;
+  }
+  .third {
+    background-color: black;
   }
   
-  .mobile-socials {
-    display: none;
+  
+  @media screen and (min-width: 200px) {
+    
+    .whatever {
+      display: grid;
+      grid-template-columns:  auto auto auto;
+      grid-gap: 50px;
+    }
   }
-}
