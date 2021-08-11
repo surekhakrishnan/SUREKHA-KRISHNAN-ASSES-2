@@ -80,6 +80,19 @@ grid-template-columns: 200px;}
 background-color: (var--alternate-color);
 }
 
+.main-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li{
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-nav a{ 
+    color: (var--main-color);
+}
+
 /* footer */ 
 
 footer {text-align: center;}
