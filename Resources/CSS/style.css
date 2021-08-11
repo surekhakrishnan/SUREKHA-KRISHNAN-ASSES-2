@@ -5,8 +5,7 @@
 /* Global faults */
 
 body {
-    background-color: #38302e;
-
+  
     background-image: url("../Images/pouring-copy.jpg");
     
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,31 +15,12 @@ body {
     
 } 
 
-h1{
+h1,h2,h3,h4,h5{
     
 
     font-size: 32px;
 }
 
-h2{
-    font-weight: bold;
-    font-size: 32px;
-}
-
-h3{
-    font-weight: bold;
-    font-size: 32px;
-}
-
-h4{
-    font-weight: bold;
-    font-size: 32px;
-}
-
-h5{
-    font-weight: bold;
-    font-size: 32px;
-}
 img{
     max-width: 100%;
 }
@@ -68,12 +48,8 @@ a:hover{
 
 /* Headings and typography */
 
-h1, 
-h2,
-h3,
-h4,
-h5 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1,h2,h3,h4,h5 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* header */
@@ -85,7 +61,7 @@ h5 {
 
 .header-text{font-size: 5rem;}
 
-.header-text{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.header-text{font-family: cursive;}
 
 .header-text{}
 
@@ -99,6 +75,10 @@ grid-template-columns: 200px;}
 }
 
 /* navigation */
+
+.navigation {
+background-color: (var--alternate-color);
+}
 
 /* footer */ 
 
